@@ -4,3 +4,10 @@ function minMax() {
     return [Math.min(...arr), Math.max(...arr)];
   }
   console.log(minMax());
+
+  // let numbers = [3, 7, 1, 15, 9];
+  function findMinMax (arr){
+    return [Math.min(...arr), Math.max(...arr)];
+  }
+
+console.log(findMinMax([3, 7, 1, 15, 9]));

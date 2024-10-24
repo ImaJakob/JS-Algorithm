@@ -4,3 +4,10 @@ function count() {
     return words;
 }
 console.log(count());
+
+
+let input = "Software development";
+function countCharacter(str){
+    return str.length;
+}
+console.log(countCharacter(input));
